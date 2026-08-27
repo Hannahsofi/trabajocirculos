@@ -1,0 +1,66 @@
+div.cero {
+  background-color: yellow;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  animation-name: animacion-circulo-uno;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacion-circulo-uno {
+  0% {
+    background-color: yellow;
+    top: 30px;
+    left: 30px;
+  }
+
+  50% {
+    background-color: aquamarine;
+    top: 30px;
+    left: 600px;
+  }
+
+  100% {
+    background-color: green;
+    top: 30px;
+    left: 30px;
+  }
+}
+
+
+div.ayuda {
+  background-color: purple;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  left: 120px;
+  animation-name: animacion-circulo-dos;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacion-circulo-dos {
+  0% {
+    background-color: red;
+    top: -50px;
+    left: 120px;
+  }
+
+  50% {
+    background-color: orange;
+    top: -50px;
+    left: -500px;
+  }
+
+  100% {
+    background-color: pink;
+    top: -50px;
+    left: 120px;
+  }
+}
